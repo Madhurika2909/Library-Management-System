@@ -1,0 +1,11 @@
+T=(1,2,3,4,5,'a',(2,4,5))
+T2=()
+n=len(T)
+for i in range (n):
+    print(T[i])
+    if T[i]=='a':
+        T2=T2+(7,)
+    else:
+        T2=T2+(T[i],)
+print(T2)
+        
